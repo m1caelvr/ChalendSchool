@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+:root {
+    --clr: #222327;
+    --clrb: transparent;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.650), transparent);
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    z-index: 99;
+}
+
+header .logo {
+    position: relative;
+    width: 110px;
+    height: 70px;
+    color: #fff;
+}
+
+.navigation .buttonlog {
+    width: 45px;
+    height: 45px;
+    background: transparent;
+    outline: none;
+    border: #ffffff00;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 2em;
+    color: #fff;
+    font-weight: 500px;
+    margin-left: 40px;
+    margin-top: 12px;
+    transition: .5s;
+}
+
+.navigation .buttonlog:hover {
+    background-color: #ffffff45;
+}
+
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(zsala.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    position: relative;
+    width: 350px;
+    height: 440px;
+    background: #00000036;
+    border: 1px solid #ffffff48;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.iconHome {
+    position: absolute;
+    top: 1.8%;
+    flex-direction: column;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 99;
+}
+
+.btn {
+    position: relative;
+    width: 270px;
+    height: 48px;
+    background-color: #11202c;
+    border-radius: 17px 17px 17px 17px;
+    border: 1px solid #11202c;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    outline: none;
+    font-size: 1em;
+    color: #ffffffb9;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0d1821;
+}

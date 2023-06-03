@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalendSchool</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <img src="FCS.png" alt="" class="logo">
+        <nav class="navigation">
+            <a href="#">Entre em contato</a>
+            <a href="#">Sobre</a>
+            <button class="buttonlog">Login</button>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <!-- <span class="icon-close">
+            <ion-icon name="close-outline"></ion-icon>
+        </span> -->
+
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="prof.html">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label>Senha</label>
+                </div>
+                <button type="submit" class="btn">Entrar</button>
+                <div class="login-register">
+                    <p>Não tem uma conta? <a href="#" class="register-link">Cadastre-se</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registre-se</h2>
+            <form action="index.html">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </span>
+                    <input type="text" required>
+                    <label>Usuário</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Senha</label>
+                </div>
+                <a href='calend.html'><button type="submit" class="btn">Registrar</button></a>
+
+                <div class="login-register">
+                    <p>Já tem uma conta? <a href="#" class="login-link">Clique e acesse.</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+                <!--<div class="remember-forgot">
+                    <label><input type="checkbox">Lembrar de mim</label>
+                    <a href="#">Esqueceu sua senha?</a>
+                </div>-->
+                <!-- <div class="remember-forgot">
+                    <label><input type="checkbox">Eu aceito e concordo com todos os</label>
+                    <a href="#">termos e cindições.</a>
+                </div> -->
+
+</body>
+</html>

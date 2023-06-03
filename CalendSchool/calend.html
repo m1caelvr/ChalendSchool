@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalendSchool</title>
+    <link rel="stylesheet" href="calend.css">
+</head>
+<body>
+    <header>
+        <img src="FCS.png" alt="" class="logo">
+        <ion-icon class="navigation" name="menu"></ion-icon>
+    </header>
+    <div class="calendar-left">
+        <div class="left">
+            <div class="mesNumber">03</div>
+            <div class="day">SÁBADO-</div>
+                <div class="tittleselecttt">
+                        <strong><a class="Tittle">OBJETOS:</a></strong>
+                        <strong><a class="Tittle">AULAS:</a></strong>
+                </div>
+            <form action="">
+                <div class="posicao">
+                    <div class="selecionar">
+                        <div class="container">
+                            <input type="text" name="categoria" placeholder=">"
+                                onfocus="dropdownA(0)" onblur="dropdownA(1)" class="inputAgendarO" required/>
+                            <div class="dropDown">
+                                <div class="listDropDown">
+                                    <div class="item" id="item-1" onmousedown="category(1)">Auditório</div>
+                                    <div class="item" id="item-2" onmousedown="category(2)">Biblioteca</div>
+                                    <div class="item" id="item-4" onmousedown="category(3)">Lab. Biologia</div>
+                                    <div class="item" id="item-3" onmousedown="category(4)">Lab. Administração</div>
+                                    <div class="item" id="item-10" onmousedown="category(5)">Lab. Enfermagem</div>
+                                    <div class="item" id="item-11" onmousedown="category(6)">Lab. Informática</div>
+                                    <div class="item" id="item-12" onmousedown="category(7)">Lab. Línguas</div>
+                                    <div class="item" id="item-13" onmousedown="category(8)">Lab. Matemática</div>
+                                    <div class="item" id="item-10" onmousedown="category(9)">Lab. Química</div>
+                                    <div class="item" id="item-11" onmousedown="category(10)">Lab. Física</div>
+                                    <div class="item" id="item-12" onmousedown="category(11)">Lab. 4.0</div>
+                                    <div class="item" id="item-13" onmousedown="category(12)">Projetor</div>
+                                    <div class="item" id="item-13" onmousedown="category(13)">Televisão</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="selecionarr">
+                        <div class="containerr">
+                            <input type="text" name="categoria" placeholder=">"
+                                onfocus="dropdownB(0)" onblur="dropdownB(1)" class="inputAgendarA" required/>
+                            <div class="dropDownn">
+                                <div class="listDropDownn">
+                                    <div class="itemm" id="item-14" onmousedown="categoryy(14)">1ª aula</div>
+                                    <div class="itemm" id="item-15" onmousedown="categoryy(15)">2ª aula</div>
+                                    <div class="itemm" id="item-16" onmousedown="categoryy(16)">3ª aula</div>
+                                    <div class="itemm" id="item-17" onmousedown="categoryy(17)">4ª aula</div>
+                                    <div class="itemm" id="item-18" onmousedown="categoryy(18)">5ª aula</div>
+                                    <div class="itemm" id="item-19" onmousedown="categoryy(19)">6ª aula</div>
+                                    <div class="itemm" id="item-20" onmousedown="categoryy(20)">7ª aula</div>
+                                    <div class="itemm" id="item-21" onmousedown="categoryy(21)">8ª aula</div>
+                                    <div class="itemm" id="item-22" onmousedown="categoryy(22)">9ª aula</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <form>
+                        <button class="AgendarButton" type="submit">
+                            Agendar
+                        </button>
+                    </form>
+                    
+                </div>
+            </form>
+        <div class="backIndicatorEvent">
+            <div class="evetosBACK">
+                <strong>
+                    <a class="eventos">Bruno  Lab. Línguas  2ª Aula</a>
+                    <a class="eventos">Luciano  Lab. Línguas  3ª Aula</a>
+                    <a class="eventos">Silvio  Lab. Línguas  4ª Aula</a>
+                    <a class="eventos">Bruno  Lab. Línguas  5ª Aula</a>
+                    <a class="eventos">Bruno  Lab. Línguas  6ª Aula</a>
+                    <a class="eventos">Luciano  Lab. Línguas  7ª Aula</a>
+                </strong>
+            </div>
+        </div>
+    </div>
+    <div class="calendar"></div>
+<script src="calend.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
